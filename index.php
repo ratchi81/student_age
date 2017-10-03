@@ -20,7 +20,7 @@ $sum = 0;
 
 for ($i=0; $i<=count($ages); $i++)
 {
-    $sum += $ages[$i%4];
+    $sum += $ages[$i];
 }
 
 $average = $sum/count($ages);
